@@ -1,0 +1,4 @@
+run unit test of ZModGroup and CMakeLists
+cmake -S . -B build
+cmake --build build -j
+ctest --test-dir build --output-on-failure
